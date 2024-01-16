@@ -14,7 +14,7 @@ body {
   display: flex;
 }
 
-.groceries {
+.shopping {
   width: 600px;
   min-height: 100vh;
   margin: auto;
@@ -22,17 +22,17 @@ body {
   box-shadow: 10px 10px 24px 0 rgba(0, 0, 0, 0.5);
 }
 
-.groceries h1 {
+.shopping h1 {
   font-size: 2.5rem;
   margin-top: 1em;
 }
 
-.groceries i {
+.shopping i {
   font-size: 2rem;
   color: orange;
 }
 
-.groceries input {
+.shopping input {
   font-family: inherit;
   outline: 0;
   border: 0;
@@ -49,13 +49,13 @@ body {
 }
 
 @media (max-width: 480px) {
-  .groceries h1 {
+  .shopping h1 {
     font-size: 2rem;
   }
-  .groceries i {
+  .shopping i {
     font-size: 1.5rem;
   }
-  .groceries input {
+  .shopping input {
     font-size: 1rem;
   }
   #allItems h2 {
